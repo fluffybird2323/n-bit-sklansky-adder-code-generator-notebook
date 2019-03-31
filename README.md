@@ -7,4 +7,4 @@
 
 <br>
 
-Note:it is not complete any is full of errors
+Note:it is not complete and is full of errors
