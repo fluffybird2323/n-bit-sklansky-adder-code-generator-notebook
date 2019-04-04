@@ -7,4 +7,4 @@ known issue:modules / python functions are in random order hence to print code o
 <br>
 
 <br>
-Update: notebook is complete and has been tested via simulation in xilinx vivado 2018.3
+Update: notebook is complete and has been tested via simulation in xilinx vivado 2018.3 and on basys3 FPGA Board
