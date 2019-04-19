@@ -168,8 +168,8 @@ endmodule
 <br>
 <br>
 sample verilog code of 16 bit adder
-```verilog
 
+```verilog
 module initializeGP(A,B,G,P);
 input A,B;
 output G,P;
