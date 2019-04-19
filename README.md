@@ -7,6 +7,7 @@ To open the notebook you can use <a href="https://www.anaconda.com/distribution/
 <br>
 <h3>Let's see how this works</h3>
 ```python
+
 def printverilog(n):
     initializeGP()
     initialiseverilog(n)
@@ -24,10 +25,12 @@ def printverilog(n):
 
 ```
 The above module prints the verilog code by making calls to other functions which are explained below
+
 ```python
 initializeGP()
 ```
 prints
+
 ```verilog 
 
 module initializeGP(A,B,G,P);
