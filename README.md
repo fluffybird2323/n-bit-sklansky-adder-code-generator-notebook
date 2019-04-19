@@ -31,7 +31,7 @@ initializeGP()
 prints
 
 ```verilog 
-
+//verilog_code
 module initializeGP(A,B,G,P);
 input A,B;
 output G,P;
@@ -47,7 +47,7 @@ initialiseverilog(n)
 prints module declarations for black and grey cells along with module declaration of sklansky adder eg: for 16 bit
 
 ```verilog
-
+//verilog_code
 module blkcell(G6_8,P6_8,G7_10,P7_10,G6_10,P6_10);
   input G6_8,P6_8,G7_10,P7_10;
   output G6_10,P6_10;
@@ -77,6 +77,7 @@ print_wires(n)
 ```
 this module prints all the required wires eg:
 ```verilog
+//verilog_code
 wire G0_0;
  wire P0_0;
  wire G0_1;
@@ -97,6 +98,7 @@ assignGP(n)
 ```
 assigns values to all G & P wires through the initialize GP module eg
 ```verilog
+//verilog_code
 initializeGP a1(A1,B1,G1_1,P1_1);
 initializeGP a2(A2,B2,G2_2,P2_2);
 initializeGP a3(A3,B3,G3_3,P3_3);
@@ -119,6 +121,7 @@ for a in range(1,1+ceil(log(n)/log(2))):
 
 calls the black and grey cell modules with in and out terminals as per the sklansky adder network eg:
 ```verilog
+//verilog_code
 blkcell cell1_13(G13_13,P13_13,G12_12,P12_12,G13_12,P13_12);
   blkcell cell1_15(G15_15,P15_15,G14_14,P14_14,G15_14,P15_14);
   greycell cell2_2(G2_2,P2_2,G1_0,G2_0);
@@ -132,6 +135,7 @@ computeS(n)
 ```
 finally computeS(n) assigns value of sum bits taking G & P wires as input eg for n = 16
 ```verilog
+//verilog_code
 assign S1 = G0_0^P1_1;
 assign S2 = G1_0^P2_2;
 assign S3 = G2_0^P3_3;
