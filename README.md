@@ -1,7 +1,7 @@
 # nbit-sklansky-adder-generator
 <h2>python notebook to generate code of n-bit sklansky adder</h2>
 
-To open the notebook you can use <a href="https://www.anaconda.com/distribution/">anaconda</a> 
+To open the notebook you can use <a href="https://www.anaconda.com/distribution/">anaconda</a> -> Jupyter Notebook
 <br>
 <br>
 <br>
