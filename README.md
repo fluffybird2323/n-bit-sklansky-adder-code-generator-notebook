@@ -6,8 +6,8 @@ To open the notebook you can use <a href="https://www.anaconda.com/distribution/
 <br>
 <br>
 <h3>Let's see how this works</h3>
-```python
 
+```python
 def printverilog(n):
     initializeGP()
     initialiseverilog(n)
@@ -22,9 +22,8 @@ def printverilog(n):
     computeS(n)
     print("assign C_out = (G"+str(n-1)+"_0"+"&P"+str(n)+"_"+str(n)+")|G"+str(n)+"_"+str(n)+";")
     print("endmodule")
-
 ```
-The above module prints the verilog code by making calls to other functions which are explained below
+ The above module prints the verilog code by making calls to other functions which are explained below
 
 ```python
 initializeGP()
